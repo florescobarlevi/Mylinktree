@@ -14,12 +14,7 @@ body{
     width: 50px;
     height: 50px;
 }
-.botones{
-    border: 3px solid black;
-    text-decoration: none;
-    padding: 30px;
-    background-color: bisque;
-}
+
 ul{
     display: inline-block;
     float:inline-start;
@@ -28,6 +23,28 @@ ul li{
     display: flex;
     margin: 10px;
 }
+.botones{
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    background-color: bisque;
+    justify-content: center;
+    box-shadow: -2px 2px 0px;
+}
+.botones:hover{
+    background-color: yellow;
+    border: 1px solid black;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    font-size: large;
+    box-shadow: -3px 3px 5px;
+}
+ul a{
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    color: black;
+}
+
 
 footer{
     padding: 30px;
