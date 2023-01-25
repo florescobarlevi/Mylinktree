@@ -34,6 +34,9 @@ p a{
     text-decoration: none;
     color: #212121;
 }
+p a:hover{
+    font-weight: 800;
+}
 
 ul{
     display: inline-block;
