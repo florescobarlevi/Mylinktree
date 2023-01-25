@@ -3,13 +3,20 @@ body{
     margin: 0 auto;
     min-height: 80vh;
     text-align: center;
+    font-family: 'Quando', serif;
+    font-size: 18px;
 }
 
 .home{
     width: 250px;
     height: 250px;
     border-radius: 150px;
+    
 }
+header{
+    margin-top: 30px;
+}
+
 .logo{
     width: 50px;
     height: 50px;
@@ -43,6 +50,8 @@ ul a{
     text-decoration: none;
     padding: 15px 30px 15px 30px;
     color: black;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
 }
 
 
