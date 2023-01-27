@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- aqui van los meta de google facebook y twitter -->    
     <!-- Primary Meta Tags -->
-<title>Meta Tags — Preview, Edit and Generate</title>
+
 <meta name="title" content="My linktree">
 <meta name="description" content="Este es mi linktree, donde podes encontrar mis proyectos como developer, un poco de musica y contenido digital">
 
@@ -35,26 +35,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet"></head>
-
+<title>My linktree</title>
 <body>
+    <div itemscope itemtype="https://schema.org/Person">
     <header>
-        <img src="/img/flower.png" alt="logoFlor" class="home">
-        <p> <a href="https://www.instagram.com/florenciaromina23/">@florenciaromina23 </a> </p>  
+        <img src="/img/flower.png" alt="logoFlor" class="home" itemprop="image">
+        <p itemprop="name"> <a href="https://www.instagram.com/florenciaromina23/">@florenciaromina23 </a> </p>  
         <nav>
-                <a href="https://www.linkedin.com/in/florencia-dominguez-dev/"><img src="/img/linkedin.png" alt="linkedin-logo" class="logo"></a>
-                <a href="https://www.instagram.com/florenciaromina23/"><img src="/img/ig.png" alt="instagram-logo" class="logo"></a>
-                <a href="https://github.com/FlorenciaRomina23"><img src="/img/github.png" alt="github-logo" class="logo"></a>
-                <a href="mailto:domescfr@gmail.com"><img src="/img/mail.png" alt="mail-logo" class="logo"></a>
+                <a href="https://www.linkedin.com/in/florencia-dominguez-dev/" itemprop="url"><img src="/img/linkedin.png" alt="linkedin-logo" class="logo" itemprop="image"></a>
+                <a href="https://www.instagram.com/florenciaromina23/" itemprop="url"><img src="/img/ig.png" alt="instagram-logo" class="logo" itemprop="image"></a>
+                <a href="https://github.com/FlorenciaRomina23" itemprop="url"><img src="/img/github.png" alt="github-logo" class="logo" itemprop="image"></a>
+                <a href="mailto:domescfr@gmail.com" itemprop="email"><img src="/img/mail.png" alt="mail-logo" class="logo" itemprop="image"></a>
         </nav>
     </header>
     <section>
-        <p>
+        <p itemprop="description">
             Esta es mi primer página al estilo linktree, cumpliendo con el reto de la escuela CodeaRock de Jonathan Ariste. Acá podés encontrar todas mis redes sociales. Además te dejo un link directo a mis listas favoritas de Spotify y Youtube. En el último link encontras mi portfolio personal. Espero que te guste!
         </p>
         <ul>
-            <li class="botones"><a href="https://open.spotify.com/playlist/37i9dQZF1E35lrS3tJVDZz?si=78a6f2ddf8774406">Spotify</a></li>
-            <li class="botones"><a href="https://www.youtube.com/@UrbanaPlayFM">Youtube</a></li>
-            <li class="botones"><a href="">Portfolio</a></li>
+            <li class="botones"><a href="https://open.spotify.com/playlist/37i9dQZF1E35lrS3tJVDZz?si=78a6f2ddf8774406" itemprop="url">Spotify</a></li>
+            <li class="botones"><a href="https://www.youtube.com/@UrbanaPlayFM" itemprop="url">Youtube</a></li>
+            <li class="botones"><a href="" itemprop="url">Portfolio</a></li>
         </ul>
     </section>
     <hr>
@@ -66,6 +67,6 @@
             2023
         </p>
     </footer>
-
+</div>
 </body>
 </html>
